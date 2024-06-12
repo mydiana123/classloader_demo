@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<school>
+
+	<!-- School is Root Context, Write in biz-code -->
+	<classRoom location="101" maxPeople='50' isDigit="false">
+		<teacher name='lihong' age='34' subject='math'></teacher>
+		<teacher name='wanggang' age='35' subject='chinese'></teacher>
+		<teacher name='zhaoxiaoli' age='37' subject='english'></teacher>
+		
+		<student name='zhaoshuang' age='15' isBanwei="true" duty="math resp"></student>
+	</classRoom>
+
+	<Canteen>
+		<chef name="wangrong" age='40' goodAt="chuancai"></chef>
+		<chef name="lijack" age='30' goodAt="xican"></chef>
+		<service name="zhaohong" age='50'></service>
+	</Canteen>
+
+</school>
